@@ -1,5 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/Photoalbum.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
+### Example user template template
+
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
