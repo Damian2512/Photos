@@ -2,7 +2,8 @@
 
 <?php
 
-function images() {
+function images()
+{
 	$directory = 'images/thumbnails/';
 	if (!is_dir($directory)) {
 		echo 'Directory path is incorrect';
@@ -20,15 +21,20 @@ function images() {
 }
 
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <ul class="gallery-images">
-				<?php images();	?>
-            </ul>
-        </div>
-    </div>
-</div>
 
+<div class="main-container main-container_width">
+    <div class="blog-page">
+        <h1 class="page-title">PhotoAlbum</h1>
+        <ul class="gallery-images">
+			<?php
+			images();
+			?>
+        </ul>
+
+        <div class="clear"></div>
+
+    </div> <!-- end blog page -->
+</div>
+<!-- end main container -->
 
 <?php include 'footer.php'; ?>
