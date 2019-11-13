@@ -1,0 +1,12 @@
+/*IMAGES PAGE */
+    /* GALLERY IMAGES */
+.gallery-images {
+    display: block;
+    font-size: 0;
+}
+.gallery-images li {
+    display: inline-block;
+    margin: 0 30px 20px 0;
+    position: relative;
+    overflow: hidden;
+}
