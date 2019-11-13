@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
 
+    <meta charset="utf-8">
+
+
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HTML framework description">
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
     <!-- Document title -->
@@ -17,8 +21,13 @@
     <link href="css/style.css"/>
     <link href="css/responsive.css"/>
     <link href="style.css"/>
+    <link href="css/general.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    </head>
+
+    <!-- Modernizr -->
+    <script type='text/javascript' src='js/libs/modernizr-2.5.3.min.js'></script>
+
+</head>
 <body>
 
 <div class="body">
