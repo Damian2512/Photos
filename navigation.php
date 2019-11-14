@@ -37,6 +37,7 @@
                             &nbsp;&nbsp;<span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
+                            <li><a href="<?php echo $home_url; ?>editprofile.php">Edit profile</a></li> <!--Deze functie moet aangemaakt worden in objects/user.php -->
                             <li><a href="<?php echo $home_url; ?>logout.php">Logout</a></li>
                         </ul>
                     </li>

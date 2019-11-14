@@ -184,4 +184,50 @@ class User{
         return $num;
     }
 
+	// read user records
+	function readUser($from_record_num){
+
+		// query to read all user records, with limit clause for pagination
+		$query = "SELECT
+                id,
+                firstname,
+                lastname,
+                email,
+                contact_number
+            FROM " . $this->table_name . "
+            ORDER BY id ";
+
+		// prepare query statement
+		$stmt = $this->conn->prepare( $query );
+
+		// bind limit clause variables
+		$stmt->bindParam(1, $from_record_num, PDO::PARAM_INT);
+
+		// execute query
+		$stmt->execute();
+
+		// return values
+		return $stmt;
+	}
+
+	// Count user
+	public function countUser(){
+
+		// query to select all user records
+		$query = "SELECT id FROM " . $this->table_name . " ";
+
+		// prepare query statement
+		$stmt = $this->conn->prepare($query);
+
+		// execute query
+		$stmt->execute();
+
+		// get number of rows
+		$num = $stmt->rowCount();
+
+		// return row count
+		return $num;
+	}
+
+
 }
