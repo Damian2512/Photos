@@ -24,10 +24,10 @@ include_once "layout_head.php";
 
 echo "<div class='col-md-12'>";
 
-// read all users from the database
+// read user from the database
 $stmt = $user->readUser($from_record_num);
 
-// count retrieved users
+// count retrieved user
 $num = $stmt->rowCount();
 
 // include products table HTML template
