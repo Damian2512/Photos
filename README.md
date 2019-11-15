@@ -1,6 +1,6 @@
 # Photoalbum
 
-A website where you can place photos in an album.
+A website where you can place photos.
 
 You can log in as a user and as an admin on this website.
 You must give the admin role in the database to the people who deserve it.
