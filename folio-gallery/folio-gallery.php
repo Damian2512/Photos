@@ -1,7 +1,7 @@
 <?php
 // error_reporting (E_ALL ^ E_NOTICE);
 // photo gallery settings
-$mainFolder = 'albums';   // folder where your albums are located - relative to root
+$mainFolder = 'folio-gallery/albums';   // folder where your albums are located - relative to root
 $albumsPerPage = '12';       // number of albums per page
 $itemsPerPage = '12';       // number of images per page
 $thumb_width = '150';      // width of thumbnails
