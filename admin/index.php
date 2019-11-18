@@ -29,9 +29,12 @@ else if($action=='logged_in_as_admin'){
     echo "</div>";
 }
 
-echo "<div class='alert alert-info'>";?>
-<?php include 'photo.php'; ?>
+// content once logged in
+echo "<div class='alert alert-info'>";
+echo "<div class='gallery'>"; ?>
+<?php include "folio-gallery/folio-gallery.php"; ?>
 <?php echo "</div>";
+echo "</div>";
 
 echo "</div>";
 
