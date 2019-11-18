@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="/images/websitelogo.ico" type="image/x-icon"/>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-
+    <link rel="stylesheet" href="<?php echo $home_url . "../folio-gallery/folio-gallery.css" ?>" />
+    <link rel="stylesheet" href="<?php echo $home_url . "../folio-gallery/colorbox/colorbox.css" ?>" />
     <!-- admin custom CSS -->
     <link href="<?php echo $home_url . "libs/css/admin.css" ?>" rel="stylesheet" />
 
