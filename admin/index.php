@@ -32,7 +32,7 @@ else if($action=='logged_in_as_admin'){
 // content once logged in
 echo "<div class='alert alert-info'>";
 echo "<div class='gallery'>"; ?>
-<?php include "folio-gallery/folio-gallery.php"; ?>
+<?php include "../folio-gallery/folio-gallery-admin.php"; ?>
 <?php echo "</div>";
 echo "</div>";
 
