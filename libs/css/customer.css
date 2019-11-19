@@ -132,17 +132,3 @@ div#blueimp-gallery div.modal {
     border: 1px solid transparent;
     border-radius: 4px;
 }
-
-/*Photo image */
-.gallery-images {
-    display: block;
-    font-size: 0;
-}
-.gallery-images li {
-    margin: 0 30px 20px 0;
-    position: relative;
-    overflow: hidden;
-    display: inline-flex;
-    width: 320px;
-    height: 320px;
-}

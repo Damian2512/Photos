@@ -22,7 +22,6 @@
     float:left;
     width: 150px;
     height: 150px;
-    margin:.6em 1.2em 0 0;
     position:relative;
 }
 
@@ -36,22 +35,8 @@
 .margin-bottom-1em{ margin-bottom:1em; }
 .left-margin{ margin:0 .5em 0 0; }
 .delete-image img{ width:25px; }
-.thumb-wrapper img{ width:130px; height:130px; margin:10px; }
+/*.thumb-wrapper img{ width:130px; height:130px; margin:10px; }*/
 #html-btn { display:none; }
 .delete-pdf{ margin-left:.5em; }
 .delete-pdf img{ width:20px; cursor:pointer; }
 .pdf-item{ padding:0 0 1em 0; }
-
-/*Photo image */
-.gallery-images {
-    display: block;
-    font-size: 0;
-}
-.gallery-images li {
-    margin: 0 30px 20px 0;
-    position: relative;
-    overflow: hidden;
-    display: inline-flex;
-    width: 320px;
-    height: 320px;
-}
