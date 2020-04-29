@@ -29,6 +29,11 @@
                 echo $page_title=="Users" ? "class='active'" : ""; ?> >
                     <a href="<?php echo $home_url; ?>admin/read_users.php">Users</a>
                 </li>
+                <!-- highlight for user related pages -->
+                <li <?php
+                echo $page_title=="Users" ? "class='active'" : ""; ?> >
+                    <a href="<?php echo $home_url; ?>admin/privacy-policy.php">Privacy policy</a>
+                </li>
             </ul>
 
             <!-- options in the upper right corner of the page -->
